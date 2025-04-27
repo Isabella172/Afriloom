@@ -77,6 +77,10 @@ a{
    
 
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
 .row{
     display: flex;
     align-items: center;
@@ -150,7 +154,7 @@ nav ul li a:hover::after{
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
-    transition: all 0.3s;
+    transition: backkground 0.5s;
     display: inline-block;
     margin-top: 20px;
     position: relative;
@@ -162,4 +166,6 @@ nav ul li a:hover::after{
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
-  
+  .header .row{
+    margin-top: 70px;
+  }
