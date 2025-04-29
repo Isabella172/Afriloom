@@ -170,12 +170,21 @@ nav ul li a:hover::after{
     margin-top: 70px;
   }
   .categories{
-    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .categories .row {
+    display: flex;
+    gap: 20px; /* Adds space between images */
+    align-items:
+  
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
   }
   .col-3{
-    flex-basis: 50%;
-    min-width: 250px;
-    margin-bottom: 50px;
+    flex
   }
   .col-3{
     width: 100%;
