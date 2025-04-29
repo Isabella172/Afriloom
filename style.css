@@ -131,6 +131,7 @@ nav ul li a {
     text-decoration: none;
     white-space: nowrap;
 }
+
 nav ul li a::after {
     content: '';
     position: absolute;
@@ -146,6 +147,7 @@ nav ul li a::after {
 nav ul li a:hover::after{
     width: 100;
 }
+
 .btn {
     background: #D4AA11;
     color: white;
@@ -161,28 +163,31 @@ nav ul li a:hover::after{
     top: 15px;
     border-radius: 30px;
   }
+
   .btn:hover {
     background: #B38E0E;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
+
   .header .row{
     margin-top: 70px;
   }     
-  .categories{
-    margin: 70px 0;
-  }
-  .col-3{
-    flex-basis: 3%;
-    min-width: 250px;
-    margin-inline: 30px ;
 
+  .categories{
+    padding: 20px 0;
   }
+
+  .col-3{
+    flex-basis: 6%;
+    min-width: 250px;
+  }
+
   .col-3 img{
     width: 200%;
   }
 .small-container{
-    max-width: 1080px;
-    margin: auto;
-    padding-left: 10px ;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 20px;    
 }
