@@ -168,24 +168,21 @@ nav ul li a:hover::after{
   }
   .header .row{
     margin-top: 70px;
-  }
+  }     
   .categories{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .categories .row {
-    display: flex;
-    gap: 20px; /* Adds space between images */
-    align-items:
-  
-    width: 250px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
+    margin: 70px 0;
   }
   .col-3{
-    flex
+    flex-basis: 3%;
+    min-width: 250px;
+    margin-inline: 30px ;
+
   }
-  .col-3{
-    width: 100%;
+  .col-3 img{
+    width: 200%;
   }
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 10px ;
+}
