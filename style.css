@@ -187,9 +187,14 @@ nav ul li a:hover::after{
     width: 200%;
   }
 .small-container{
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;    
+}
+.small-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
 }
 .col-4{
     flex-basis:25px;
@@ -197,6 +202,6 @@ nav ul li a:hover::after{
     min-width: 200px;
     margin-bottom: 50px;
 }
-.col-4 {
-    width: 100%;
+.col-4 img {
+    width: 200%;
 }
